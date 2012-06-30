@@ -1,0 +1,4 @@
+A causa della mia poca conoscenza di espressioni regolari, purtroppo il programma non riesce ad elaborare file remoti 
+e file locali che abbiano estensione .html o .xml, perchè la regex fallisce e quindi in quei file non trova nessuna 
+stringa (dovrebbe ottenere il contenuto dei tag <description> e <body>). Il resto del codice è perfettamente funzionante.
+(L'errore si trova nelle classi XMLFile, TXTFile e HTMLFile)
